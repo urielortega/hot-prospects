@@ -12,6 +12,7 @@
 		A41CED5E2A53312D00FAF60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41CED5D2A53312D00FAF60C /* Assets.xcassets */; };
 		A41CED612A53312D00FAF60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41CED602A53312D00FAF60C /* Preview Assets.xcassets */; };
 		A44F54452A58BF22005BB7DF /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F54442A58BF22005BB7DF /* ImageSaver.swift */; };
+		A47BECED2A5C99C100868D3C /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47BECEC2A5C99C100868D3C /* FileManager-DocumentsDirectory.swift */; };
 		A4AD15992A55E1BB0017354B /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD15982A55E1BB0017354B /* ProspectsView.swift */; };
 		A4AD159B2A55E1CB0017354B /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD159A2A55E1CB0017354B /* MeView.swift */; };
 		A4AD159D2A55E6C80017354B /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD159C2A55E6C80017354B /* Prospect.swift */; };
@@ -26,6 +27,7 @@
 		A41CED602A53312D00FAF60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A44F54442A58BF22005BB7DF /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		A44F54462A58C213005BB7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A47BECEC2A5C99C100868D3C /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		A4AD15982A55E1BB0017354B /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		A4AD159A2A55E1CB0017354B /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		A4AD159C2A55E6C80017354B /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
@@ -64,11 +66,9 @@
 			children = (
 				A44F54462A58C213005BB7DF /* Info.plist */,
 				A41CED592A53312C00FAF60C /* HotProspectsApp.swift */,
-				A41CED5B2A53312C00FAF60C /* ContentView.swift */,
-				A4AD15982A55E1BB0017354B /* ProspectsView.swift */,
-				A4AD159C2A55E6C80017354B /* Prospect.swift */,
-				A4AD159A2A55E1CB0017354B /* MeView.swift */,
-				A44F54442A58BF22005BB7DF /* ImageSaver.swift */,
+				A47BECEF2A5C9BCB00868D3C /* View */,
+				A47BECF02A5C9BE800868D3C /* Model */,
+				A47BECEE2A5C9A9C00868D3C /* Helpers */,
 				A41CED5D2A53312D00FAF60C /* Assets.xcassets */,
 				A41CED5F2A53312D00FAF60C /* Preview Content */,
 			);
@@ -81,6 +81,33 @@
 				A41CED602A53312D00FAF60C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A47BECEE2A5C9A9C00868D3C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A44F54442A58BF22005BB7DF /* ImageSaver.swift */,
+				A47BECEC2A5C99C100868D3C /* FileManager-DocumentsDirectory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A47BECEF2A5C9BCB00868D3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A41CED5B2A53312C00FAF60C /* ContentView.swift */,
+				A4AD15982A55E1BB0017354B /* ProspectsView.swift */,
+				A4AD159A2A55E1CB0017354B /* MeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A47BECF02A5C9BE800868D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4AD159C2A55E6C80017354B /* Prospect.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AD159B2A55E1CB0017354B /* MeView.swift in Sources */,
+				A47BECED2A5C99C100868D3C /* FileManager-DocumentsDirectory.swift in Sources */,
 				A44F54452A58BF22005BB7DF /* ImageSaver.swift in Sources */,
 				A4AD159D2A55E6C80017354B /* Prospect.swift in Sources */,
 				A4AD15992A55E1BB0017354B /* ProspectsView.swift in Sources */,
