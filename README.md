@@ -18,3 +18,7 @@ HotProspects is an app to track people you meet at conferences. It generates a Q
 
 ## How to Use
 Clone the repository and open the project in Xcode. Run the app to generate a sample QR code and scan others' codes to track leads at conferences.
+
+---
+
+**Note:** This project is a sample app created for learning purposes and exploring the integration of UIKit and SwiftUI.
