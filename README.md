@@ -5,7 +5,7 @@ HotProspects is an app to track people you meet at conferences. It generates a Q
 ## Features
 - Generates a QR code with attendee details.
 - Scans QR codes of others to add them as potential leads.
-- Saves QR code images using `UIImageWriteToSavedPhotosAlbum`.
+- Saves images using `UIImageWriteToSavedPhotosAlbum`.
 - Uses `CoreImage` for QR code generation.
 
 ## Topics Covered
